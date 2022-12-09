@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Final project - X MIPA 11</title>
+
+    <!-- css tambahan -->
+    <style>
+        .bg {
+            width: 100%;
+            height: 610px;
+            object-fit: cover
+        }
+
+        body {
+            background-color: #000
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Breawing Emporium</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///E:/Bootstrap/bootstrap_11/Our%20Menu.html">Our menu</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Class
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item"
+                                    href="file:///E:/Bootstrap/bootstrap_11/clasic%20final.html">Classic for
+                                    weekdays</a>
+
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="file:///E:/Bootstrap/bootstrap_11/bussines%20final.html">Bussines for
+                                    weekend</a>
+                            </li>
+
+                            <li><a class="dropdown-item"
+                                    href="file:///E:/Bootstrap/bootstrap_11/vvip%20final.1.html">vvip for
+                                    meeting</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="kopi.avif" class="d-block w-100 bg" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="kopi juga.jpg" class="d-block w-100 bg" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="biji kopi.jpg" class="d-block w-100 bg" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end of carousel -->
+
+    <!-- fasilitas -->
+    <div class="row pt-4 gx-4 gy-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="vip.jpg" class="card-img-top" width="70px" height="190px">
+                <div class="card-body">
+                    <h5 class="card-title">VVIP Class</h5>
+                    <p class="card-text">hanya utk pak jokowi</p>
+                    <a href="file:///E:/Bootstrap/bootstrap_11/vvip%20final.1.html" class="btn btn-primary">klik en
+                        dek</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="classic.jpg" class="card-img-top" width="70px" height="190px">
+                <div class="card-body">
+                    <h5 class="card-title">Classic class</h5>
+                    <p class="card-text">ndang rene wes paling murah ki</p>
+                    <a href="file:///E:/Bootstrap/bootstrap_11/clasic%20final.html" target="_blank" class="btn btn-primary">kliken dek</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="bisnis.jpg" class="card-img-top" width="70px" height="190px">
+                <div class="card-body">
+                    <h5 class="card-title">Bussines Class</h5>
+                    <p class="card-text">rodok elit sitik iki , nggo nggae SG</p>
+                    <a href="file:///E:/Bootstrap/bootstrap_11/bussines%20final.html" class="btn btn-primary">kliken dek</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of fasilitas -->
+    
+    <!-- gallery -->
+    <div class="row mt-5">
+        <h1 class="text-center text-white mb-4">Gallery</h1>
+        <div class="col-md-3 ">
+            <img src="kentang neh.jpg" class="d-block" width="300px" height="250px">
+        </div>
+        <div class="col-md-3 ">
+            <img src="pitik neh.jpg" class="d-block" width="300px" height="250px">
+        </div>
+        <div class="col-md-3 ">
+            <img src="spageti lagi.jpg" class="d-block" width="300px" height="250px">
+        </div>
+        <div class="col-md-3 ">
+            <img src="roti lagi.jpg" class="d-block" width="300px" height="250px">
+        </div>
+    </div>
+    <!-- end of gallery -->
+
+    <!--about us-->
+    <div class="row mt-5">
+            <h1 class="text-center text-white mb-4">About us</h1>
+    <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="az.jpeg" class="card-img-top" >
+                    <div class="card-body">
+                        <p class="card-text">Azka Nida M</p>
+                        <small class="text-muted">
+                        <a href="https://instagram.com/azkanidaa?igshid=ZmVmZTY5ZGE=">@azkanidaa</small></p></a>         
+                    </div>
+            </div>
+    </div>
+    <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="lena lg.jpeg" class="card-img-top" >
+                    <div class="card-body">
+                        <p class="card-text">Magdalena Setya p<small class="text-muted"></p>
+                        <p>
+                             <a href="https://instagram.com/_xzlnaa?igshid=ZmVmZTY5ZGE=">@_xzlnaa</small>
+                        </p>
+                              </a>         
+                    </div>
+            </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="kaka.jpg" class="card-img-top" >
+                <div class="card-body">
+                    <p class="card-text">Khanti Kumalasari<small class="text-muted"></p>
+                    <p>
+                         <a href="https://instagram.com/kkaka.titi?igshid=ZmVmZTY5ZGE=">@kkaka.titi</small>
+                    </p>
+                          </a>         
+                </div>
+        </div>
+</div>
+<div class="col-md-3">
+    <div class="card" style="width: 18rem;">
+        <img src="cip.jpeg" class="card-img-top" >
+            <div class="card-body">
+                <p class="card-text">Syifa Al adzkiya <small class="text-muted"></p>
+                <p>
+                     <a href="https://instagram.com/alazkieya?igshid=ZmVmZTY5ZGE=">@alazkieya</small>
+                </p>
+                      </a>         
+            </div>
+    </div>
+</div>
+
+    
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
